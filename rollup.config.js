@@ -1,21 +1,22 @@
 import typescript from '@rollup/plugin-typescript';
-import {nodeResolve} from '@rollup/plugin-node-resolve';
+import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import wasm from '@rollup/plugin-wasm';
+import pkg from './package.json';
+
+const extensions = ['.js', '.ts'];
 
 export default {
-  input: {
-    cli: 'src/index.ts',
-  },
+  input: 'src/index.ts',
   output: {
-    dir: 'dist/',
+    file: pkg.cli,
     sourcemap: 'inline',
     format: 'cjs'
   },
   plugins: [
     wasm(),
     typescript(),
-    nodeResolve({browser: true}),
-    commonjs(),
+    resolve({ extensions }),
+    commonjs()
   ]
 };
