@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*"],
+
+  "compilerOptions": {
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "target": "es5",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "lib": [
+      "es5",
+      "es2015"
+    ],
+  }
+}

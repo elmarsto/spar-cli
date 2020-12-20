@@ -1,0 +1,16 @@
+{
+  "name": "spar-cli",
+  "version": "0.0.1",
+  "description": "The CLI for Spar, a tool for generating .rs from a .d.ts",
+  "cli": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["rust", "spar", "typescript"],
+  "author": "Elizabeth Marston",
+  "repository": {
+    "url": "https://github.com/elmarsto/spar-cli",
+    "type": "git"
+  },
+  "license": "MIT"
+}
