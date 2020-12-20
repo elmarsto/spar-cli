@@ -1,16 +1,37 @@
 {
   "name": "spar-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "The CLI for Spar, a tool for generating .rs from a .d.ts",
   "cli": "dist/main.js",
   "scripts": {
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["rust", "spar", "typescript"],
+  "keywords": [
+    "rust",
+    "spar",
+    "typescript"
+  ],
   "author": "Elizabeth Marston",
   "repository": {
     "url": "https://github.com/elmarsto/spar-cli",
     "type": "git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "dist/main.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@rollup/plugin-wasm": "^5.1.2",
+    "@types/node": "^14.14.2",
+    "rollup": "^2.32.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "spar-lib": "^0.0.3",
+    "ts-morph": "^9.1.0"
+  }
 }
