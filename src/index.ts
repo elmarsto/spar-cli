@@ -1,8 +1,3 @@
-const fetch = require('node-fetch');
-import Spar from "spar-lib";
+const s  = require("Spar");
 
-if (!globalThis.fetch) {
-	globalThis.fetch = fetch;
-}
-
-Spar();
+console.log(s);

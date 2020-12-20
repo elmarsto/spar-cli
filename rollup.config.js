@@ -16,7 +16,10 @@ export default {
   plugins: [
     wasm(),
     typescript(),
-    resolve({ extensions }),
-    commonjs()
+    resolve({ extensions, jsnext: true, main: true }),
+    commonjs({
+      include: 'node_modules/**',
+      extensions: ['.js', '.jsx']
+    })
   ]
 };
