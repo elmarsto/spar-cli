@@ -5,13 +5,12 @@ import wasm from '@rollup/plugin-wasm';
 
 export default {
   input: {
-    main: 'src/index.ts',
+    cli: 'src/index.ts',
   },
   output: {
     dir: 'dist/',
     sourcemap: 'inline',
-    format: 'cjs',
-    exports: 'default'
+    format: 'cjs'
   },
   plugins: [
     wasm(),
