@@ -1,3 +1,3 @@
-const s  = require("Spar");
+const s  = require("spar-lib");
 
 console.log(s);
