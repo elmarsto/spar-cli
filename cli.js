@@ -1,5 +1,0 @@
-'use strict';
-
-var s = require("spar-lib");
-console.log(s);
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2xpLmpzIiwic291cmNlcyI6WyIuLi9zcmMvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgcyAgPSByZXF1aXJlKFwic3Bhci1saWJcIik7XHJcblxyXG5jb25zb2xlLmxvZyhzKTsiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNLENBQUMsR0FBSSxPQUFPLENBQUMsVUFBVSxDQUFDLENBQUM7QUFFL0IsT0FBTyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUM7OyJ9
