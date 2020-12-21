@@ -1,3 +1,3 @@
 const s  = require("spar-lib");
 
-console.log(s);
+console.log(s.default());
