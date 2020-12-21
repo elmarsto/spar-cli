@@ -4,7 +4,6 @@
   "compilerOptions": {
     "inlineSourceMap": true,
     "inlineSources": true,
-    "module": "ESNext",
     "target": "es5",
     "noImplicitAny": true,
     "moduleResolution": "node",
@@ -13,6 +12,6 @@
       "es5",
       "dom",
       "es2015"
-    ],
+    ]
   }
 }
