@@ -36,13 +36,13 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "spar-lib": "file:../spar-lib",
-    "spar-rs": "file:../spar-rs/pkg",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "commander": "^6.2.1",
     "figlet": "^1.5.0",
     "path": "^0.12.7",
+    "spar-lib": "file:../spar-lib",
+    "spar-rs": "file:../spar-rs/pkg",
     "ts-morph": "^9.1.0"
   }
 }
