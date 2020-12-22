@@ -5,6 +5,11 @@ const path = require('path');
 const program = require('commander');
 const spar  = require('spar-lib');
 
+const src = `
+public function hello() {
+    console.log("hello, whirl!");
+}
+`
 clear();
 
-console.log(chalk.red(figlet.textSync(spar.translate("some other str"), { horizontalLayout: 'full' })));
+console.log(chalk.red(spar.translate(src)));
